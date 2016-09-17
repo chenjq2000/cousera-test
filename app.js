@@ -14,10 +14,10 @@ function LunchCheckController($scope, $filter) {
     var menuItems = $scope.menu.split(',');
 
     if (menuItems.length > 3) {
-      $scope.message = "Too much";
+      $scope.message = "Too much!";
     }
     else {
-      $scope.message = "Enjoin";
+      $scope.message = "Enjoy!";
     }
 
 
